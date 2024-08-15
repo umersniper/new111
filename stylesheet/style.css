@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #232972;
+}
+
+#logo {
+    margin-left: 3%;
+}
+
+nav {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .links a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#application {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #337ab7;
+    text-align: center;
+}
+
+#slider {
+    width: 100%;
+    height: 60vh;
+
+}
+
+#slider img {
+    width: 100%;
+    height: 100%;
+}
+
+#campus {
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#img {}
+
+#list {
+    width: 70%;
+}
+
+#list ol {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#studentLink
+{
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#border
+{
+    margin: auto;
+    width: 20%;
+    border: solid 3px orange;
+}
+#updates
+{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img1 img:hover
+{
+    opacity: 0.5;
+}
+#why
+{
+    margin-top: 5%;
+    background: url('../images/WhySzabistBackGround3.jpg');
+    background-size: 100% 100%;
+}
+#why h1{
+    padding-top: 5%;
+}
+#why p
+{
+    margin-top: 5%;
+}
